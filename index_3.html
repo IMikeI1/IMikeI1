@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Selection</title>
+  </head>
+  <style>
+    /*
+    padding: 1px; применяется для всех сторон
+    padding: 10px; - top and bottom (left and right)
+    padding: 10px 20px 30px; - top (left and right) bottom
+    padding: 5px 1px 0 10px; - top (right, bottom, left )
+    */
+
+    body{font-family: Arial, Helvetica, sans-serif;}
+    margin: 0;
+    padding: 0;
+    header{
+        background-color:rgb(18, 24, 24)
+        color:white;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+
+    }
+    main{
+        display: flex;
+        padding: 20px;
+    }
+    article{
+        flex: 3px;
+        margin-right: 20px;
+
+    }
+    footer{
+        background-color: rgb(138, 107, 169);
+    }
+  </style>
+  header { background-color: rgb(18, 24, 24) color: white padding top: 10 px
+  padding-botton: 20 px }
+  <body>
+    <header>Заголовок сайта (верхнее меню)</header>
+    <main>основной контент страницы</main>
+    <article>
+      <h2>Основная статья</h2>
+    </article>
+    <section>
+      <h3>Раздел 1</h3>
+      <p>это содержимое первого раздела основной статьи</p>
+    </section>
+    <section>
+      <h3>Раздел 2</h3>
+      <p>это содержимое второго раздела основной статьи</p>
+    </section>
+  </body>
+</html>
