@@ -1,18 +1,33 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.container{
- margin-left: 20px;
-margin-bottom: 30px;
-}
-.main-title{
-font-size: 30px;
-color: black;
-font-weight: 700px;
-}
-.main-img{
+.input-form{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    background: linear-gradient(rgb(121, 184, 252) )
 
 }
+.input-group{
+    margin-bottom: 20px;
+}
 
+.input-group label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group input{
+
+}
+
+.input-group input :focus
+
+.input-form button{
+
+
+}
+.input-form button:hover{
+
+}
